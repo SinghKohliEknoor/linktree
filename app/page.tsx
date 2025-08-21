@@ -22,7 +22,7 @@ export default function GroupLinkTree() {
       name: "KamalPreet Singh", 
       role: "DBA", 
       linkedin: "https://www.linkedin.com/in/kamalpreet-singh-b671992a5/", 
-      avatar: "/kamal.jpg",
+      avatar: "/Kamal.jpg",
       skills: ["Java", "Javascript", "MYSQL", "Typescript", "Supabase", "HTML","CSS"],
       bio: "Database specialist focused on creating robust and scalable database solutions.",
       experience: "1 year",
