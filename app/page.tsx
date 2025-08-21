@@ -10,45 +10,45 @@ export default function GroupLinkTree() {
     { 
       name: "Eknoor Singh Kohli", 
       role: "Lead Coder", 
-      linkedin: "https://www.linkedin.com/in/eknoor-singh-kohli-2409122a8/", 
+      linkedin: "https://www.linkedin.com/in/eknoor-singh-kohli/", 
       avatar: "/eknoor.jpg",
-      skills: ["JavaScript", "React", "Node.js", "TypeScript", "Next.js"],
-      bio: "Passionate full-stack developer with expertise in modern web technologies. Love creating efficient and scalable applications.",
-      experience: "3+ years",
-      location: "India",
+      skills: ["HTML","CSS","JavaScript", "React","React-Native", "Node.js", "TypeScript", "Next.js","Java","Python","Supabase","C#","Docker","CI/CD PipeLine","Restful API","Expo"],
+      bio: "Passionate full-stack developer with expertise in modern web technologies. Love creating efficient and scalable applications. A visionary leader who orchestrated the entire project lifecycle, from concept to launch.",
+      experience: "1 year",
+      location: "Calgary,Canada",
       email: "eknoor@example.com"
     },
     { 
-      name: "Teammate 1 Name", 
-      role: "Their Role", 
-      linkedin: "https://www.linkedin.com/in/teammate1-username", 
-      avatar: "",
-      skills: ["Python", "Django", "PostgreSQL", "AWS"],
-      bio: "Backend specialist focused on creating robust and scalable server-side solutions.",
-      experience: "2+ years",
-      location: "Location",
+      name: "KamalPreet Singh", 
+      role: "DBA", 
+      linkedin: "https://www.linkedin.com/in/kamalpreet-singh-b671992a5/", 
+      avatar: "/kamal.jpg",
+      skills: ["Java", "Javascript", "MYSQL", "Typescript", "Supabase", "HTML","CSS"],
+      bio: "Database specialist focused on creating robust and scalable database solutions.",
+      experience: "1 year",
+      location: "Calgary,Canada",
       email: "teammate1@example.com"
     },
     { 
-      name: "Teammate 2 Name", 
-      role: "Their Role", 
-      linkedin: "https://www.linkedin.com/in/teammate2-username", 
-      avatar: "",
-      skills: ["UI/UX Design", "Figma", "Adobe XD", "Prototyping"],
+      name: "Pranav", 
+      role: "UI/UX Designer", 
+      linkedin: "https://www.linkedin.com/in/pranav-bhalla-b720b62b0/", 
+      avatar: "/Pranav.jpg",
+      skills: ["UI/UX Design", "Figma", "Prototyping"],
       bio: "Creative designer passionate about user experience and interface design.",
-      experience: "4+ years",
-      location: "Location",
+      experience: "1 year",
+      location: "Calgary,Canada",
       email: "teammate2@example.com"
     },
     { 
-      name: "Teammate 3 Name", 
-      role: "Their Role", 
-      linkedin: "https://www.linkedin.com/in/teammate3-username", 
-      avatar: "",
+      name: "Harkaran", 
+      role: "Support coder", 
+      linkedin: "https://ca.linkedin.com/in/harkaran-singh-690bbb270", 
+      avatar: "/Harkaran.jpg",
       skills: ["DevOps", "Docker", "Kubernetes", "CI/CD"],
       bio: "Infrastructure specialist ensuring smooth deployment and operations.",
-      experience: "5+ years",
-      location: "Location",
+      experience: "1 year",
+      location: "Calgary,Canada",
       email: "teammate3@example.com"
     },
   ];
@@ -61,9 +61,9 @@ export default function GroupLinkTree() {
 
       <section className="relative mx-auto max-w-4xl px-4 py-12">
         <motion.header initial={false} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="mb-10 text-center">
-          <h1 className="text-4xl sm:text-5xl font-extrabold">Team LinkedIn Link Tree</h1>
+          <h1 className="text-4xl sm:text-5xl font-extrabold">Team VapeVault LinkTree</h1>
           <p className="mt-3 text-sm sm:text-base text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-            One page, four profiles. Tap a card to open LinkedIn, copy the URL, or share.
+            Your all-in-one digital hub of the members of Team VapeVault.
           </p>
         </motion.header>
 
